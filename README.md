@@ -21,4 +21,4 @@
 
 > python3 phone_parser.py
 
-<i><a href="t.me/blackhat_lab">Наш бомбовый Telegram канал</a></i>
+<i><a href="https://t.me/blackhat_lab">Наш бомбовый Telegram канал</a></i>
