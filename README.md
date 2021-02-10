@@ -6,7 +6,7 @@
 - Дополнительная инструкция по использованию утилиты 
 
 # Установка в Linux
-## Основные пакеты 
+## Требуемые пакеты 
 - Python 3.8 [ apt-get install python3 ]
 - git [ apt-get install git ]
 ### Linux
