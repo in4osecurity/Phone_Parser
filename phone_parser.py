@@ -17,8 +17,11 @@ from Crypto.Cipher import AES
 
 def main_menu():
 	os.system("clear")
-	print(colored("Добро пожаловать в PHONE PARSER!", 'green'))
-	print(colored("Наш канал => @blackhat_lab", "red"))
+	print(colored("""
+█▀█ █░█ █▀█ █▄░█ █▀▀   █▀█ ▄▀█ █▀█ █▀ █▀▀ █▀█
+█▀▀ █▀█ █▄█ █░▀█ ██▄   █▀▀ █▀█ █▀▄ ▄█ ██▄ █▀▄""", 'green'))
+	print(colored("Подпишись на наш канал => @blackhat_lab", "white"))
+	time.sleep(4)
 	print("\n")
 	print(colored("1 - Поиск AVITO", "yellow"))
 	print(colored("Поиск обьявлений на AVITO", "yellow"))
