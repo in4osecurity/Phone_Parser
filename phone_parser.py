@@ -139,8 +139,12 @@ def getByPhoneTags(phone):
 
 ##Получаем GETCONTACT
 def pars_getcontact():
+	print(colored("""
+█▀█ █░█ █▀█ █▄░█ █▀▀   █▀█ ▄▀█ █▀█ █▀ █▀▀ █▀█
+█▀▀ █▀█ █▄█ █░▀█ ██▄   █▀▀ █▀█ █▀▄ ▄█ ██▄ █▀▄""", 'green'))
+	print(colored("Подпишись на наш канал => @blackhat_lab", "white"))
 	
-	phone = input(colored("Номер: ", 'yellow'))
+	phone = input(colored("\nНомер: ", 'yellow'))
 	
 	if '+' not in phone:
 		phone = '+'+phone
@@ -169,7 +173,11 @@ def pars_getcontact():
 
 def pars_avito():
 	
-	phone = input(colored("Номер: ", 'yellow'))
+	print(colored("""
+█▀█ █░█ █▀█ █▄░█ █▀▀   █▀█ ▄▀█ █▀█ █▀ █▀▀ █▀█
+█▀▀ █▀█ █▄█ █░▀█ ██▄   █▀▀ █▀█ █▀▄ ▄█ ██▄ █▀▄""", 'green'))
+	print(colored("Подпишись на наш канал => @blackhat_lab", "white"))
+	phone = input(colored("\nНомер: ", 'yellow'))
 	os.system("clear")
 	
 	page = requests.get('https://mirror.bullshit.agency/search_by_phone/'+phone)
@@ -195,7 +203,11 @@ def pars_avito():
 		print(colored("Найден адрес и дата\n", 'green'), classtext.text)
 		
 def pars_simcard():
-	phone = input(colored("Номер: ", 'yellow'))
+	print(colored("""
+█▀█ █░█ █▀█ █▄░█ █▀▀   █▀█ ▄▀█ █▀█ █▀ █▀▀ █▀█
+█▀▀ █▀█ █▄█ █░▀█ ██▄   █▀▀ █▀█ █▀▄ ▄█ ██▄ █▀▄""", 'green'))
+	print(colored("Подпишись на наш канал => @blackhat_lab", "white"))
+	phone = input(colored("\nНомер: ", 'yellow'))
 	try:
 		getInfo = "https://htmlweb.ru/geo/api.php?json&telcod=" + str(phone)
 		try:
