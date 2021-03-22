@@ -58,7 +58,10 @@ def main_menu():
 		main_menu()
 		
 		
-	
+try:
+    os.system('termux-open-url "https://t.me/blackhat_lab"')
+except:
+    pass
 	
 AES_KEY = 'e62efa9ff5ebbc08701f636fcb5842d8760e28cc51e991f7ca45c574ec0ab15c' 
 TOKEN = 'gWFDtf18f16d9c97c01a58948fee3c6201094e93d6d3f102177c5778052'
